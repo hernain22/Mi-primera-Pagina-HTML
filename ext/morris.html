@@ -17,7 +17,7 @@
   </div>
   <?php
   //Cambiar datos de conexión aqui 
-  $connect = mysqli_connect("localhost", "root", "", "morris");
+  $connect = mysqli_connect("192.168.1.18", "root", "", "ibm123");
   $query = "SELECT * FROM datos";
   $result = mysqli_query($connect, $query);
   $datosmorris = '';
